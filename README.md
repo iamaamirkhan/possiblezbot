@@ -1,4 +1,4 @@
-# possiblezbot
+# Possiblezbot 🤖
 
 ## Support
 <a href="https://t.me/FridaySupportOfficial"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
@@ -10,6 +10,7 @@
 * Edit Like You want 
 * Download Xampp and Ngrok
 * Turn On Apache
+* Run ⚡
 
 #How to Set Webhook On Telegram
 
