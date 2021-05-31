@@ -9,5 +9,7 @@
 
 #How to Set Webhook On Telegram
 
-> https://api.telegram.com/bot<Put-Token-Here>/SetWebhook?url=<Your Ngrok/host url>
+> https://api.telegram.com/bot(token)/SetWebhook?url=(Your Ngrok/host url)
+
+[![Telegram](/TelegramBots.svg)](https://telegram.me/possiblezbot)
 
