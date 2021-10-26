@@ -25,6 +25,21 @@ if (in_array($chatId, $mainid) === false){
  sendMessage($chatId,$freeusermsg, $message_id);
 return;
 }
+# Id Status By Aamir
+function checkId($userId){
+    $mainids = array("1569782682,1569782682"); #PUT HERE Premium USERID
+    if($userId == "1569782681"){#Add Here Your Id if ur owner
+        $show = "Owner";
+        }
+        elseif(in_array($userId, $mainids) === true){
+        $show = "Premium";
+        }
+        else{
+        $show = "Free";
+        }
+        return $show;
+}
+$myid = checkId($userId); #Use $myid where u want
 #------------------[Start]-------------#
 if ((strpos($message, "!start") === 0)||(strpos($message, "/start") === 0)){
 sendMessage($chatId, "<i>Hello $firstname now you can use /cmds%0A%0ABot Made by Aamir </i>");
